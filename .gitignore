@@ -8,7 +8,7 @@ resources/
 
 # Environments
 .env
-.venv
+*.venv
 env/
 venv/
 ENV/
@@ -18,3 +18,9 @@ venv.bak/
 # Test Files
 test.py
 Test.py
+.vscode/*
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
